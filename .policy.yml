@@ -1,0 +1,9 @@
+policy:
+  approval:
+    - one approval from shelmangroup
+
+approval_rules:
+  - name: one approval from shelmangroup
+    requires:
+      count: 1
+      organizations: ["shelmangroup"]
