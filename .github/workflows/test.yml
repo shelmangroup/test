@@ -10,6 +10,8 @@ jobs:
     env:
       ImageOS: ubuntu22
     steps:
+      - run: id
+
       - uses: actions/checkout@v4
 
       - uses: erlef/setup-beam@v1
